@@ -1,0 +1,99 @@
+.heads{
+    height: 60px;
+    background-color:rgb(29, 49, 87);
+    text-align:left;
+    font-size: 30px;
+
+}
+.main{
+    display:flex;
+    /* height: 100vh; */
+    background-image:url(https://images-eu.ssl-images-amazon.com/images/G/31/img26/Consumables/Grocery/PC-Hero_3000x1200._CB782932305_.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-top:10px;
+    justify-content: space-around;
+
+
+}
+.main img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  
+}
+.box1{
+    height: 350px;
+    width: 330px;
+    margin-top:90px;
+    border-color: aliceblue;
+    
+}
+.box1 img{
+    height: 80%;
+    width: 60%;
+    object-fit: cover;
+    /* overflow: visible; */
+}
+.nam{
+    background-color: azure;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 10px;
+}
+.nains{
+    height: 500px;
+    /* background-color: yellow; */
+
+}
+.nains img{
+    object-fit: visible;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    
+}
+
+.mains{
+    display: flex;
+    
+    
+}
+.mains1{
+    height: 400px;
+    width: 300px;
+    margin: 40px;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+.mains1 img{
+    height: 250px;
+    width: 300px;
+    object-fit: visible;
+    cursor: pointer;
+}
+.offers{
+    height: 300px;
+    background-color: green;
+
+}
+.offers img{
+    height: 100%;
+    width: 100%;
+    object-fit: visible;
+}
+.footer1{
+    display: flex;
+    height: 60px;
+    background-color: rgb(102, 115, 151);
+    /* text-align: center; */
+    color: white;
+    justify-content: center;
+}
+.footer2{
+    height: 500px;
+    background-color: rgb(41, 58, 95);
+
+}
